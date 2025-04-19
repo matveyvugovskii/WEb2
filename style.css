@@ -1,3 +1,7 @@
+ul,li{
+    margin: 0;
+    padding: 0;
+}
 .top{
     color: rgb(33, 33, 33);
     font-family: "Roboto", sans-serif;
@@ -318,10 +322,8 @@ height: 260px;
     background: rgb(245, 244, 250);
 }
 .container{
-    padding-top:50px ;
-    padding-bottom:202px ;
-    padding-left: 115px;
-    padding-right: 215px;
+   width: 1200px;
+   margin: 0 auto;
 }
 .top{
     color: rgb(33, 33, 33);
@@ -360,7 +362,6 @@ margin-left: 10px;
     margin-left: 10px;
 }
 .containe2{
-    margin-top: 105px;
     margin-bottom: 21px;
 }
 .box1{
@@ -410,13 +411,6 @@ margin-right: 34px;
 .box{
     margin-right: 10px;
 }
-.conta{
-    display: flex;
-    flex-direction:column;
-width: 1600px;
-height: 252px;
-
-}
 .none{
     display: flex;
     flex-direction: column;
@@ -451,10 +445,9 @@ margin-bottom: 9px;
     justify-content: center;
 }
 .hello{
-    padding-top: 100px;
 }
 .formation{
-    margin-bottom: 300px;
+    margin-bottom: 94px;
 }
 .mb{
     background-image: url(./Img.png);
@@ -463,7 +456,7 @@ margin-bottom: 9px;
     background-position: center;
 }
 .navbar-itek{
-    margin-top: 250px;
+    margin-top: 94px;
 }
 .mh{
     display: flex;
@@ -496,14 +489,13 @@ height: 120px;
 .efect{
     display: flex;
     justify-content: center;
-    margin-top: 231px;
+    margin:231px auto 0;
 }
 .ho{
     display: flex;
     justify-content: center;
 }
 .Biznes{
-    width: 1600px;
 height: 600px;
 }
 .postiyni{
@@ -520,6 +512,12 @@ text-align: center;
 .klienti{
     display: flex;
     justify-content: center;
+}
+.klient{
+    padding-left: 100px ;
+    padding-right:215px ;
+    padding-top:49px ;
+padding-bottom: 80px;
 }
 .phot{
 margin-right: 10px;
@@ -541,15 +539,11 @@ font-family: Roboto;
 font-size: 14px;
 font-weight: 700;
 line-height: 16px;
-letter-spacing: 3%;
 text-align: left;
 text-transform: uppercase;
-width: 116px;
-height: 16px;
 }
-.pr{
-    display: flex;
-    justify-content: center;
+.nl{
+display: flex;
 }
 .secti{
     background: rgb(47, 48, 58);
@@ -588,4 +582,90 @@ text-decoration: none;
 }
 .conta{
     display: flex;
+}
+.client{
+    display: flex;
+}
+.social{
+ list-style: none;   
+}
+.galley{
+    display: flex;
+}
+.sam{
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+.top{
+    margin-right: 10px;
+    list-style: none;
+    width: 44px;
+    height: 44px
+}
+.pnj{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.pr{
+    margin-left: 156px;
+}
+.conta{
+    align-items: center;
+}
+.genera{
+    padding-left:215px ;
+    padding-right:215px ;
+    padding-top:200px ;
+}
+.im-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.list-card{
+    display: flex;
+    margin: 0 auto;
+}
+.our-team{
+    padding-top:94px ;
+    padding-bottom: 94px;
+    display: flex;
+    flex-direction: column
+}
+.top:hover{
+   fill: rgb(33, 150, 243);
+}
+.conta{
+    padding-top:60px ;
+    padding-bottom:60px ;
+}
+.svq:hover{
+    fill: rgb(33, 150, 243);
+}
+.ellip{
+    width: 20px;
+    height: 20px;
+}
+.discover{
+    width:20px ;
+    height:20px ;
+}
+.dodatki{
+    position: absolute;
+width: 156px;
+height: 16px;
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 3%;
+text-align: center;
+text-transform: uppercase;
+background: rgba(47, 48, 58, 0.8);
+}
+.designer{
+ 
 }
