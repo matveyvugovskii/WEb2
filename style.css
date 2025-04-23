@@ -1,671 +1,692 @@
-ul,li{
-    margin: 0;
-    padding: 0;
-}
-.top{
-    color: rgb(33, 33, 33);
-    font-family: "Roboto", sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-    }
-    .h1{
-        color: rgb(33, 33, 33);
-        font-family: "Roboto", sans-serif;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 42px;
-    }
-    .info{
-        color: rgb(33, 150, 243);
-        font-family: "Raleway", sans-serif;
-        font-size: 26px;
-        font-weight: 700;
-        line-height: 31px;
-    }
-    .in card{
-        color: rgb(255, 255, 255);
-    }
-    .adress-links{
-        color: rgb(255, 255, 255);
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    }
-    .gmail{
-        color: rgba(255, 255, 255, 0.6);
-        font-family: "Roboto", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 24px;
-    }
-    .number{
-       color: rgba(255, 255, 255, 0.6);
-       font-family: "Roboto", sans-serif;
-       font-size:14px;
-       font-weight: 400;
-       line-height: 24px;
-    }
-    .card-user{
-        color: rgb(33, 33, 33);
-        font-family: "Roboto", sans-serif;
-       font-size:16px;
-       font-weight: 500;
-       line-height: 19px;
-    }
-    .navbar-link{
-         color: rgb(33, 33, 33);
-         font-family: "Roboto", sans-serif;
-         font-size: 14px;
-         font-weight: 700;
-         line-height: 16px;
-    }
-    .user{
-        color:rgb(117, 117, 117);
-        font-family: "Roboto", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 24px;
-    }
-    .box2{
-       color: rgb(117, 117, 117);
-    }
-    .box3{
-        color:rgb(117, 117, 117);
-    }
-    .order{
-        color:rgb(33, 150, 243);
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 16px;
-       line-height:30px
-    }
-         ; 
-    .efect{
-        color: rgb(255, 255, 255);
-        font-family: "Roboto", sans-serif;
-        font-weight: 100;
-        font-style: normal;
-        font-size: 44px;
-       line-height:60px ; 
-    }
-    a4{
-        color: red;
-    }
-    a5{
-        color: red;
-    }
-    p+ul{
-        font-size: 24px;
-    }
-    .containe1{
-        display: flex;
-        justify-content: space-around;
-    }
-.webst{
-    font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-line-height: 31px;
-letter-spacing: 3%;
-text-align: left;
-margin-right: 93px;
-}
-.stu{
-    color: rgb(33, 150, 243);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 2%;
-text-align: left;
-margin-right: 50px;
-}
-.portf{
-    color: rgb(33, 33, 33);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 2%;
-text-align: left;
-margin-right: 50px;
-}
-.contk{
-    color: rgb(33, 33, 33);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 2%;
-text-align: left;
-margin-right: 344px;
-}
-.infem{
-    color: rgb(33, 150, 243);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 2%;
-text-align: left;
-margin-right: 50px;
-}
-.numuk{
-    color: rgb(117, 117, 117);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 2%;
-text-align: left;
-}
-.detal{
-    color: rgb(33, 33, 33);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-line-height: 16px;
-letter-spacing: 3%;
-text-align: left;
-text-transform: uppercase;
-text-decoration: none;
-}
-.mirk{
-    color: rgb(117, 117, 117);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 3%;
-text-align: left;
-margin-bottom: 10px;
-}
-.idea{
-    width: 270px;
-height: 72px;
-}
-.organizatio{
-    color: rgb(117, 117, 117);
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 3%;
-    text-align: left;
-}
-.punkt{
-    color: rgb(33, 33, 33);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-line-height: 16px;
-letter-spacing: 3%;
-text-align: left;
-text-transform: uppercase;
-}
-.zavdan{
-    width: 270px;
-height: 48px;
-}
-.plan{
-    color: rgb(33, 33, 33);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-line-height: 16px;
-letter-spacing: 3%;
-text-align: left;
-text-transform: uppercase;
-}
-.consul{
-    color: rgb(117, 117, 117);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 3%;
-text-align: left;
-}
-.same{
-    width: 270px;
-height: 48px;
-}
-.tekhl{
-    color: rgb(33, 33, 33);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-line-height: 16px;
-letter-spacing: 3%;
-text-align: left;
-text-transform: uppercase;
-}
-.probl{
-    color: rgb(117, 117, 117);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 3%;
-text-align: left;
-}
-.zavd{
-    width: 270px;
-height: 72px;
-}
-.such{
-    width: 270px;
-height: 16px;
-}
-.plaw{
-    width: 270px;
-height: 16px;
-}
-.pun{
-    width: 270px;
-height: 16px;
-}
-.ybag{
-    width: 270px;
-height: 16px; 
-}
-.navbar-item{
-    display: flex;
-    justify-content: space-around;
-}
-.navbar-itev{
-    display: flex;
-    justify-content: space-around;
-}
-.h1{
-    display: flex;
-    justify-content: center;
-}
-.navbar-itek{
-    display: flex;
-}
-.container{
-    display: flex;
-}
-.box{
-    width: 370px;
-height: 294px;
-}
-.team{
-    display: flex;
-    justify-content: center;
-}
-.hello{
-    display: flex;
-    justify-content: center;
-}
-.box1{
-    width: 366px;
-height: 42px;
-    color: rgb(33, 33, 33);
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 42px;
-letter-spacing: 3%;
-text-align: center;
-}
-.box{
-    margin-right: 30px;
-    width: 270px;
-height: 260px;
-}
-.sectio{
-    background: rgb(245, 244, 250);
-}
-.container{
-   width: 1200px;
-   margin: 0 auto;
-}
-.top{
-    color: rgb(33, 33, 33);
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 42px;
-letter-spacing: 3%;
-text-align: center;
-width: 264px;
-height: 42px;
-}
-.secti{
-    background: rgb(47, 48, 58);
-}
-.adress-link{
-    color: rgb(255, 255, 255);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 3%;
-text-align: left;
-margin-left: 10px;
-}
-.info{
-    text-decoration: none;
-}
-.std{
-    color: white;
-}
-.gmail{
-    margin-left: 10px;
-}
-.number{
-    margin-left: 10px;
-}
-.containe2{
-    margin-bottom: 21px;
-}
-.box1{
-    color: rgb(33, 33, 33);
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: 3%;
-    text-align: center;
-}
-.h1{
-    color: rgb(33, 33, 33);
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 42px;
-letter-spacing: 3%;
-text-align: center;
-}
-.h2{
-    color: rgb(33, 33, 33);
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 42px;
-letter-spacing: 3%;
-text-align: center;
-}
-.navbar-link{
-    text-decoration: none;
-    width: 270px;
-height: 72px;
-margin-right: 34px;
-}
-.container hi{
-    margin-right: 15px;
-}
-.formation{
-    margin-right: 15px;
-}
-.container3{
-    display: flex;
-    display: flex;
-    justify-content: center;
-}
-.box{
-    margin-right: 10px;
-}
-.none{
-    display: flex;
-    flex-direction: column;
-}
-.adress-link{
-    margin-left :215px;
-}
-.gmail{
-margin-left: 215px;
-}
-.number{
-margin-left: 215px;
-}
-.info{
-    margin-left: 215px;
-}
-.adress-links{
-    margin-bottom: 9px;
-    margin-top: 20px;
-}
-.gmails{
-margin-bottom: 9px;
-}
-.raw{
-    margin-top: 60px;
-}
-.webst{
-    margin-top: 5px;
-}
-.containe2{
-    display: flex;
-    justify-content: center;
-}
-.hello{
-}
-.formation{
-    margin-bottom: 94px;
-}
-.mb{
-    background-image: url(./Img.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.navbar-itek{
-    margin-top: 94px;
-}
-.mh{
-    display: flex;
-    justify-content: center;
-}
-.nm{
-    color: rgb(255, 255, 255);
-font-family: Roboto;
-font-size: 16px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 6%;
-text-align: center;
-background: rgb(24, 140, 232);
-width: 216px;
-height: 50px;
-}
-.mn{
-    color: rgb(255, 255, 255);
-font-family: Roboto;
-font-size: 44px;
-font-weight: 900;
-line-height: 60px;
-letter-spacing: 6%;
-text-align: center;
-text-transform: uppercase;
-width: 696px;
-height: 120px;
-}
-.efect{
-    display: flex;
-    justify-content: center;
-    margin:231px auto 0;
-}
-.ho{
-    display: flex;
-    justify-content: center;
-}
-.Biznes{
-height: 600px;
-}
-.postiyni{
-    width: 297px;
-height: 42px;
-    color: rgb(33, 33, 33);
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 42px;
-letter-spacing: 3%;
-text-align: center;
-}
-.klienti{
-    display: flex;
-    justify-content: center;
-}
-.klient{
-    padding-left: 100px ;
-    padding-right:215px ;
-    padding-top:49px ;
-padding-bottom: 80px;
-}
-.phot{
-margin-right: 10px;
-margin-bottom: 85px;
-}
-.phok{
-    margin-right: 10px;
-    margin-left: 215px;
-    margin-bottom: 85px;
-}
-.phon{
-   margin-left: 10px;
-   margin-right: 215px;
-   margin-bottom: 85px;
-}
-.lp{
-    color: rgb(255, 255, 255);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-line-height: 16px;
-text-align: left;
-text-transform: uppercase;
-}
-.nl{
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+.top {
+	color: rgb(33, 33, 33);
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+}
+.h1 {
+	color: rgb(33, 33, 33);
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+}
+.info {
+	color: rgb(33, 150, 243);
+	font-family: 'Raleway', sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+}
+.in card {
+	color: rgb(255, 255, 255);
+}
+.adress-links {
+	color: rgb(255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.gmail {
+	color: rgba(255, 255, 255, 0.6);
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.number {
+	color: rgba(255, 255, 255, 0.6);
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.card-user {
+	color: rgb(33, 33, 33);
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	margin-top: 30px;
+}
+.navbar-link {
+	color: rgb(33, 33, 33);
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+}
+.user {
+	color: rgb(117, 117, 117);
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.box2 {
+	color: rgb(117, 117, 117);
+}
+.box3 {
+	color: rgb(117, 117, 117);
+}
+.order {
+	color: rgb(33, 150, 243);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 30px;
+}
+.efect {
+	color: rgb(255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 44px;
+	line-height: 60px;
+}
+a4 {
+	color: red;
+}
+a5 {
+	color: red;
+}
+p + ul {
+	font-size: 24px;
+}
+.containe1 {
+	display: flex;
+	justify-content: space-around;
+}
+.webst {
+	font-family: Raleway;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 31px;
+	letter-spacing: 3%;
+	text-align: left;
+	margin-right: 93px;
+}
+.stu {
+	color: rgb(33, 150, 243);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	letter-spacing: 2%;
+	text-align: left;
+	margin-right: 50px;
+}
+.portf {
+	color: rgb(33, 33, 33);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	letter-spacing: 2%;
+	text-align: left;
+	margin-right: 50px;
+}
+.contk {
+	color: rgb(33, 33, 33);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	letter-spacing: 2%;
+	text-align: left;
+	margin-right: 344px;
+}
+.infem {
+	color: rgb(33, 150, 243);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	letter-spacing: 2%;
+	text-align: left;
+	margin-right: 50px;
+}
+.numuk {
+	color: rgb(117, 117, 117);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	letter-spacing: 2%;
+	text-align: left;
+}
+.detal {
+	color: rgb(33, 33, 33);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 3%;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.mirk {
+	color: rgb(117, 117, 117);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 3%;
+	text-align: left;
+	margin-bottom: 10px;
+}
+.idea {
+	width: 270px;
+	height: 72px;
+}
+.organizatio {
+	color: rgb(117, 117, 117);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 3%;
+	text-align: left;
+}
+.punkt {
+	color: rgb(33, 33, 33);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 3%;
+	text-align: left;
+	text-transform: uppercase;
+}
+.zavdan {
+	width: 270px;
+	height: 48px;
+}
+.plan {
+	color: rgb(33, 33, 33);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 3%;
+	text-align: left;
+	text-transform: uppercase;
+}
+.consul {
+	color: rgb(117, 117, 117);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 3%;
+	text-align: left;
+}
+.same {
+	width: 270px;
+	height: 48px;
+}
+.tekhl {
+	color: rgb(33, 33, 33);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 3%;
+	text-align: left;
+	text-transform: uppercase;
+}
+.probl {
+	color: rgb(117, 117, 117);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 3%;
+	text-align: left;
+}
+.zavd {
+	width: 270px;
+	height: 72px;
+}
+.such {
+	width: 270px;
+	height: 16px;
+}
+.plaw {
+	width: 270px;
+	height: 16px;
+}
+.pun {
+	width: 270px;
+	height: 16px;
+}
+.ybag {
+	width: 270px;
+	height: 16px;
+}
+.navbar-item {
+	display: flex;
+	justify-content: space-around;
+}
+.navbar-itev {
+	display: flex;
+	justify-content: space-around;
+}
+.h1 {
+	display: flex;
+	justify-content: center;
+}
+.navbar-itek {
+	display: flex;
+}
+.box {
+	width: 370px;
+	height: 100%;
+}
+.team {
+	display: flex;
+	justify-content: center;
+}
+.hello {
+	display: flex;
+	justify-content: center;
+}
+.box1 {
+	width: 366px;
+	height: 42px;
+	color: rgb(33, 33, 33);
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: 3%;
+	text-align: center;
+}
+.box-team-user {
+	
+	width: 270px;
+}
+.sectio {
+	background: rgb(245, 244, 250);
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.top {
+	color: rgb(33, 33, 33);
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: 3%;
+	text-align: center;
+	width: 264px;
+	height: 42px;
+}
+.secti {
+	background: rgb(47, 48, 58);
+}
+.adress-link {
+	color: rgb(255, 255, 255);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 3%;
+	text-align: left;
+	margin-left: 10px;
+}
+.info {
+	text-decoration: none;
+}
+.std {
+	color: white;
+}
+.gmail {
+	margin-left: 10px;
+}
+.number {
+	margin-left: 10px;
+}
+.containe2 {
+	margin-bottom: 21px;
+}
+.box1 {
+	color: rgb(33, 33, 33);
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: 3%;
+	text-align: center;
+}
+.h1 {
+	color: rgb(33, 33, 33);
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: 3%;
+	text-align: center;
+}
+.h2 {
+	color: rgb(33, 33, 33);
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: 3%;
+	text-align: center;
+}
+.navbar-link {
+	text-decoration: none;
+	margin-right: 34px;
+}
+.container hi {
+	margin-right: 15px;
+}
+.formation {
+	margin-bottom: 94px;
+	margin-right: 15px;
+	position: relative;
+}
+.container3 {
+	display: flex;
+	display: flex;
+	justify-content: center;
+}
+.box {
+	margin-right: 10px;
+}
+.none {
+	display: flex;
+	flex-direction: column;
+}
+.adress-link {
+	margin-left: 215px;
+}
+.gmail {
+	margin-left: 215px;
+}
+.number {
+	margin-left: 215px;
+}
+.info {
+	margin-left: 215px;
+}
+.adress-links {
+	margin-bottom: 9px;
+	margin-top: 20px;
+}
+.gmails {
+	margin-bottom: 9px;
+}
+.raw {
+	margin-top: 60px;
+}
+.webst {
+	margin-top: 5px;
+}
+.containe2 {
+	display: flex;
+	justify-content: center;
+}
+.hello {
+}
+
+.mb {
+	background-image: url(./Img.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.navbar-itek {
+	margin-top: 94px;
+}
+.mh {
+	display: flex;
+	justify-content: center;
+}
+.nm {
+	color: rgb(255, 255, 255);
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 6%;
+	text-align: center;
+	background: rgb(24, 140, 232);
+	width: 216px;
+	height: 50px;
+}
+.mn {
+	color: rgb(255, 255, 255);
+	font-family: Roboto;
+	font-size: 44px;
+	font-weight: 900;
+	line-height: 60px;
+	letter-spacing: 6%;
+	text-align: center;
+	text-transform: uppercase;
+	width: 696px;
+	height: 120px;
+}
+.efect {
+	display: flex;
+	justify-content: center;
+	margin: 231px auto 0;
+}
+.ho {
+	display: flex;
+	justify-content: center;
+}
+.Biznes {
+	height: 600px;
+}
+.postiyni {
+	width: 297px;
+	height: 42px;
+	color: rgb(33, 33, 33);
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 42px;
+	letter-spacing: 3%;
+	text-align: center;
+}
+.klienti {
+	display: flex;
+	justify-content: center;
+}
+.klient {
+	padding-top: 49px;
+	padding-bottom: 80px;
+}
+.phot {
+	margin-right: 10px;
+	margin-bottom: 85px;
+}
+.phok {
+	margin-right: 10px;
+	margin-left: 215px;
+	margin-bottom: 85px;
+}
+.phon {
+	margin-left: 10px;
+	margin-right: 215px;
+	margin-bottom: 85px;
+}
+.lp {
+	color: rgb(255, 255, 255);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.nl {
+	display: flex;
+}
+.secti {
+	background: rgb(47, 48, 58);
+}
+.sem {
+	width: 44px;
+	height: 44px;
+	margin-right: 10px;
+}
+.same {
+	width: 44px;
+	height: 44px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+.pht {
+	width: 44px;
+	height: 44px;
+}
+.foto {
+	width: 44px;
+	height: 44px;
+}
+.same:hover {
+	color: rgb(33, 150, 243);
+}
+.social {
+	display: flex;
+}
+.sam {
+	margin-right: 10px;
+}
+.svq {
+	fill: gray;
+	width: 20px;
+height: 20px;
+}
+.conta {
+	display: flex;
+}
+.client {
+	display: flex;
+	width: 170px;
+	height: 92px;
+}
+.social {
+	list-style: none;
+}
+.galley {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.sam {
+	width: 44px;
+	height: 44px;
+	margin-right: 10px;
+}
+.border {
+	fill: white;
+	margin-right: 10px;
+	list-style: none;
+	width: 30px;
+	height: 30px;
+}
+.pnj {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.pr {
+	margin-left: 156px;
+}
+.conta {
+	align-items: center;
+}
+.genera {
+	padding-top: 100px;
+}
+.im-card {
+	width: 270px;
+	border-radius: 0px 0px 4px 4px;
+	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+background: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.list-card {
+	display: flex;
+	gap: 30px;
+	margin: 0 auto;
+}
+.our-team {
+	padding-top: 94px;
+	padding-bottom: 94px;
+	display: flex;
+	flex-direction: column;
+}
+.border:hover {
+	fill: rgb(33, 150, 243);
+}
+.conta {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.svq:hover {
+	fill: rgb(33, 150, 243);
+}
+.ellip {
+	color: white;
+	width: 20px;
+	height: 20px;
+}
+.discover {
+	width: 20px;
+	height: 20px;
+}
+.designer {
+	position: absolute;
+	width: 370px;
+	height: 70px;
+	bottom: 0px;
+	background: rgba(47, 48, 58, 0.8);
+}
+.dodatki {
+	color: rgb(255, 255, 255);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+	letter-spacing: 3%;
+	text-transform: uppercase;
+	margin: 0;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ .one-box{
 display: flex;
+justify-content: space-around;
 }
-.secti{
-    background: rgb(47, 48, 58);
-}
-.sem{
-    width: 44px;
-    height: 44px;
-    margin-right: 10px;
-}
-.same{
-    width: 44px;
-height: 44px;
-margin-right: 10px;
-text-decoration: none;
-}
-.pht{
-    width: 44px;
-    height: 44px;
-}
-.foto{
-    width: 44px;
-    height: 44px;
-}
-.same:hover{
-    color: rgb(33, 150, 243);;
-}
-.social{
-    display: flex;
-}
-.sam{
-    margin-right: 10px;
-}
-.svq{
-    width: 44px;
-    height: 44px;
-}
-.conta{
-    display: flex;
-}
-.client{
-    display: flex;
-}
-.social{
- list-style: none;   
-}
-.galley{
-    display: flex;
-}
-.sam{
-    width: 44px;
-    height: 44px;
-    margin-right: 10px;
-}
-.top{
-    margin-right: 10px;
-    list-style: none;
-    width: 44px;
-    height: 44px
-}
-.pnj{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-.pr{
-    margin-left: 156px;
-}
-.conta{
-    align-items: center;
-}
-.genera{
-    padding-left:215px ;
-    padding-right:215px ;
-    padding-top:200px ;
-}
-.im-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center
-}
-.list-card{
-    display: flex;
-    margin: 0 auto;
-}
-.our-team{
-    padding-top:94px ;
-    padding-bottom: 94px;
-    display: flex;
-    flex-direction: column
-}
-.top:hover{
-   fill: rgb(33, 150, 243);
-}
-.conta{
-    padding-top:60px ;
-    padding-bottom:60px ;
-}
-.svq:hover{
-    fill: rgb(33, 150, 243);
-}
-.ellip{
-    width: 20px;
-    height: 20px;
-}
-.discover{
-    width:20px ;
-    height:20px ;
-}
-.dodatki{
-    position: absolute;
-width: 156px;
-height: 16px;
-    color: rgb(255, 255, 255);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-line-height: 16px;
-letter-spacing: 3%;
-text-align: center;
-text-transform: uppercase;
-background: rgba(47, 48, 58, 0.8);
-}
-.designer{
- 
+.pon{
+	background: rgba(255, 255, 255, 0.1);
+	padding: 5px 6px;
+    border-radius: 50%;
 }
