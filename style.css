@@ -317,7 +317,6 @@ p + ul {
 	text-align: center;
 }
 .box-team-user {
-	
 	width: 270px;
 }
 .sectio {
@@ -450,7 +449,7 @@ p + ul {
 }
 
 .mb {
-	background-image: url(./Img.png);
+	background-image: url(./images/Img.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -489,7 +488,6 @@ p + ul {
 .efect {
 	display: flex;
 	justify-content: center;
-	margin: 231px auto 0;
 }
 .ho {
 	display: flex;
@@ -497,6 +495,10 @@ p + ul {
 }
 .Biznes {
 	height: 600px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 }
 .postiyni {
 	width: 297px;
@@ -577,7 +579,7 @@ p + ul {
 .svq {
 	fill: gray;
 	width: 20px;
-height: 20px;
+	height: 20px;
 }
 .conta {
 	display: flex;
@@ -602,12 +604,12 @@ height: 20px;
 }
 .border {
 	fill: white;
-	margin-right: 10px;
 	list-style: none;
 	width: 30px;
 	height: 30px;
 }
 .pnj {
+	gap: 10px;
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
@@ -624,8 +626,9 @@ height: 20px;
 .im-card {
 	width: 270px;
 	border-radius: 0px 0px 4px 4px;
-	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-background: rgb(255, 255, 255);
+	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+		0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+	background: rgb(255, 255, 255);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -653,8 +656,8 @@ background: rgb(255, 255, 255);
 }
 .ellip {
 	color: white;
-	width: 20px;
-	height: 20px;
+	width: 44ppx;
+	height: 44px;
 }
 .discover {
 	width: 20px;
@@ -681,12 +684,12 @@ background: rgb(255, 255, 255);
 	justify-content: center;
 	align-items: center;
 }
- .one-box{
-display: flex;
-justify-content: space-around;
+.one-box {
+	display: flex;
+	justify-content: space-around;
 }
-.pon{
+.pon {
 	background: rgba(255, 255, 255, 0.1);
 	padding: 5px 6px;
-    border-radius: 50%;
+	border-radius: 50%;
 }
