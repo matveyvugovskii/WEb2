@@ -3,10 +3,79 @@
 *::after {
 	box-sizing: border-box;
 }
-ul,
-li {
+body {
 	margin: 0;
 	padding: 0;
+}
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+
+/* header */
+
+/* navbar */
+
+.one {
+	padding: 25px 0;
+}
+
+.header-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 93px;
+}
+
+.webst {
+	color: #000;
+	font-family: Raleway;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.78px;
+}
+.web-blue {
+	color: #2196f3;
+}
+.stu {
+	color: rgb(33, 150, 243);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	letter-spacing: 2%;
+}
+.stu-link {
+	color: #212121;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0.28px;
+	transition: color 250ms linear;
+}
+.stu-link:hover {
+	color: #2196f3;
+}
+.head-address {
+	display: flex;
+	justify-content: center;
+
+	gap: 30px;
 }
 .top {
 	color: rgb(33, 33, 33);
@@ -29,7 +98,7 @@ li {
 	font-weight: 700;
 	line-height: 31px;
 }
-.in card {
+.in .card {
 	color: rgb(255, 255, 255);
 }
 .adress-links {
@@ -39,6 +108,21 @@ li {
 	font-weight: 400;
 	line-height: 24px;
 }
+
+.infem {
+	color: #757575;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	letter-spacing: 2%;
+	text-align: left;
+	transition: color 250ms linear;
+}
+.infem:hover {
+	color: rgb(33, 150, 243);
+}
+
 .gmail {
 	color: rgba(255, 255, 255, 0.6);
 	font-family: 'Roboto', sans-serif;
@@ -97,38 +181,12 @@ li {
 	font-size: 44px;
 	line-height: 60px;
 }
-a4 {
-	color: red;
-}
-a5 {
-	color: red;
-}
-p + ul {
-	font-size: 24px;
-}
+
 .containe1 {
 	display: flex;
 	justify-content: space-around;
 }
-.webst {
-	font-family: Raleway;
-	font-size: 26px;
-	font-weight: 700;
-	line-height: 31px;
-	letter-spacing: 3%;
-	text-align: left;
-	margin-right: 93px;
-}
-.stu {
-	color: rgb(33, 150, 243);
-	font-family: Roboto;
-	font-size: 14px;
-	font-weight: 500;
-	line-height: 16px;
-	letter-spacing: 2%;
-	text-align: left;
-	margin-right: 50px;
-}
+
 .portf {
 	color: rgb(33, 33, 33);
 	font-family: Roboto;
@@ -149,16 +207,7 @@ p + ul {
 	text-align: left;
 	margin-right: 344px;
 }
-.infem {
-	color: rgb(33, 150, 243);
-	font-family: Roboto;
-	font-size: 14px;
-	font-weight: 500;
-	line-height: 16px;
-	letter-spacing: 2%;
-	text-align: left;
-	margin-right: 50px;
-}
+
 .numuk {
 	color: rgb(117, 117, 117);
 	font-family: Roboto;
@@ -396,16 +445,13 @@ p + ul {
 	text-decoration: none;
 	margin-right: 34px;
 }
-.container hi {
-	margin-right: 15px;
-}
+
 .formation {
 	margin-bottom: 94px;
 	margin-right: 15px;
 	position: relative;
 }
 .container3 {
-	display: flex;
 	display: flex;
 	justify-content: center;
 }
@@ -438,14 +484,10 @@ p + ul {
 .raw {
 	margin-top: 60px;
 }
-.webst {
-	margin-top: 5px;
-}
+
 .containe2 {
 	display: flex;
 	justify-content: center;
-}
-.hello {
 }
 
 .mb {
@@ -686,10 +728,80 @@ p + ul {
 }
 .one-box {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	gap: 53px;
 }
 .pon {
 	background: rgba(255, 255, 255, 0.1);
 	padding: 5px 6px;
 	border-radius: 50%;
 }
+
+/* adaptive */
+
+@media (max-width: 768px) {
+	.container {
+		width: 768px;
+	}
+		.head-address {
+			flex-direction: column;
+		}
+		.biznes{
+			height: 400px;
+		}
+		.navbar-itek{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 20px;
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		.navbar-item{
+			width: 45%;
+			text-align: center;
+		}
+		.grou{
+			width: 354px;
+			border-radius: 4px;
+background: rgba(245, 244, 250, 1);
+		}
+		.detal{
+			width: 270px;
+		}
+		.mirk{
+			width: 354px;
+		}
+		.menu{
+			padding-top:60px ;
+			padding-bottom:60px ;
+		}
+		.im-card{
+			width: 354px;
+		}
+		.box-team-user{
+			width: 354px;
+		}
+		.genera{
+			display: none;
+		}
+		.list-card{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.galley{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 30px;
+		}
+		.client{
+			width: 226px;
+height: 92px;
+box-sizing: border-box;
+border: 1px solid rgba(175, 177, 184, 1);
+border-radius: 4px;
+		}
+	}
+
