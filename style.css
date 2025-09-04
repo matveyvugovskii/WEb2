@@ -462,18 +462,6 @@ a {
 	display: flex;
 	flex-direction: column;
 }
-.adress-link {
-	margin-left: 215px;
-}
-.gmail {
-	margin-left: 215px;
-}
-.number {
-	margin-left: 215px;
-}
-.info {
-	margin-left: 215px;
-}
 .adress-links {
 	margin-bottom: 9px;
 	margin-top: 20px;
@@ -656,9 +644,6 @@ a {
 	display: flex;
 	justify-content: space-around;
 }
-.pr {
-	margin-left: 156px;
-}
 .conta {
 	align-items: center;
 }
@@ -804,4 +789,97 @@ border: 1px solid rgba(175, 177, 184, 1);
 border-radius: 4px;
 		}
 	}
-
+	@media (max-width: 480px) {
+		.container {
+			width: 480px;
+			display: flex;
+			flex-direction: column;
+		}
+		.stu{
+			display: none;
+		}
+		.head-address{
+			display: none;
+		}
+		.navbar-itek{
+			display: flex;
+			flex-direction: column;
+		}
+		.galley{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 30px;
+		}
+		.client{
+			width: 210px;
+		}
+		.im-card{
+			width: 450px;
+		}
+		.box-team-user{
+			width: 450px;
+		}
+		.grou{
+			width: 450px;
+		}
+		.mirk{
+			width: 450px;
+			margin-left: 15px;
+		}
+		.detal{
+			width: 270px;
+			display: flex;
+			justify-content: center;
+		}
+		.mn{
+			width:360px;
+			font-size: 26px;
+		}
+		.nm{
+			width: 200px;
+		}
+		.adress-links{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+		.pnj{
+			display: flex;
+			justify-content: center;
+			padding-left: 137px;
+			padding-right:137px ;
+		}
+		.nl{
+			padding-left: 167px;
+			padding-right:167px ;
+		}
+		.gmail{
+			width: 232px;
+			display: flex;
+			justify-content: center;
+			font-size: 14px;
+			font-weight: 400;
+		}
+		.number{
+			width: 232px;
+			display: flex;
+			justify-content: center;
+			font-size: 14px;
+			font-weight: 400;
+		}
+		.adress-link{
+			display: flex;
+			justify-content: center;
+			font-size: 14px;
+			font-weight: 400;
+		}
+		.info{
+			display: flex;
+			justify-content: center;
+		}
+		.genera{
+			display: none;
+		}
+	}
